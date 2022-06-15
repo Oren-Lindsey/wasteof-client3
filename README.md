@@ -4,7 +4,6 @@ version 3 of wasteof-client, an npm package for [wasteof.money](https://wasteof.
 It lets you mess around with not only the wasteof2 api, but also the wasteof3 beta api (which is obviously in beta, you shouldn't rely on it for anything)
 ## install
 to install, run `npm i wasteof-client`
-it should install the latest version
 
 ## contact
 [wasteof2](https://wasteof.money/@ee)
