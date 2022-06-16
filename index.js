@@ -51,7 +51,7 @@ class Wasteof2 {
         const json = await response.data
         return json
     }
-    async checkCommentsOnPost(id, page) {
+    async getCommentsOnPost(id, page) {
         if (typeof page == 'number') {
             const response = await axios({
                 url: `https://api.wasteof.money/posts/${id}/comments?page=${page}`,
