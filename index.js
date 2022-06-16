@@ -136,7 +136,7 @@ class Wasteof2 {
             return json
         }
     }
-    async checkIfUserLovedPost(name) {
+    async getIfUserLovedPost(id, name) {
         const response = await axios({
             url: `https://api.wasteof.money/posts/${id}/loves/${name}`,
             method: 'get'
