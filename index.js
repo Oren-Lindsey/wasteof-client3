@@ -578,6 +578,21 @@ class Wasteof2Auth {
         const json = await response.data
         return json
     }
+    async postComment(postid, content, parent) {
+        const response = await axios({
+            headers: {
+                'Authorization': this.token
+            },
+            url: `https://api.wasteof.money/posts/${postid}/comments`,
+            method: 'post',
+            data: {
+                content: content,
+                parent: parent
+            }
+        })
+        const json = await response.data
+        return json
+    }
     async editPost(id, content) {
         const response = await axios({
             headers: {
