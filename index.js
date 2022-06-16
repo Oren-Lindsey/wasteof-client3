@@ -102,7 +102,7 @@ class Wasteof2 {
             return json
         }
     }
-    async checkRepliesToComment(id, page) {
+    async getRepliesToComment(id, page) {
         if (typeof page == 'number') {
             const response = await axios({
                 url: `https://api.wasteof.money/comments/${id}/replies?page=${page}`,
