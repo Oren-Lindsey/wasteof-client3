@@ -1,6 +1,6 @@
 {
   "name": "wasteof-client",
-  "version": "3.0.0-beta.2",
+  "version": "3.0.0",
   "description": "node client for wasteof.money",
   "main": "index.js",
   "scripts": {
