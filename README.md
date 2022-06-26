@@ -9,3 +9,5 @@ to install, run `npm i wasteof-client`
 [wasteof2](https://wasteof.money/@ee)
 
 [wasteof3](https://beta.wasteof.money/@ee)
+## docs
+[docs](https://oren-lindsey.github.io/wasteof-client-docs/)
