@@ -179,9 +179,9 @@ class Wasteof2 {
         const json = await response.data
         return json
     }
-    async getFollowingOfUser(name) {
+    async getFollowingOfUser(name, page) {
         const response = await axios({
-            url: `https://api.wasteof.money/users/${name}/following`,
+            url: `https://api.wasteof.money/users/${name}/following?page=${page}`,
             method: 'get'
         })
         const json = await response.data
