@@ -6,8 +6,8 @@ It lets you mess around with not only the wasteof2 api, but also the wasteof3 be
 to install, run `npm i wasteof-client`
 
 ## contact me
-[wasteof2](https://wasteof.money/@ee)
+[wasteof2](https://wasteof.money/@oren)
 
-[wasteof3](https://beta.wasteof.money/@ee)
+[wasteof3](https://beta.wasteof.money/@oren)
 ## docs
 [docs](https://oren-lindsey.github.io/wasteof-client-docs/)
